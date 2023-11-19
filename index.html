@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Venta de Rangos - Servidor Minecraft</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .rango {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            margin: 15px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .rango:hover {
+            transform: translateY(-5px);
+        }
+        .rango h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .rango p {
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .rango .precio {
+            font-weight: bold;
+            color: #ff6600;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .rango button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ff6600;
+            color: #fff;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .rango button:hover {
+            background-color: #e65c00;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Venta de Rangos - Servidor Minecraft</h1>
+    </header>
+
+    <div class="container">
+        <div class="rango">
+            <h2>Rango VIP</h2>
+            <p>Acceso a zonas exclusivas</p>
+            <p>Comandos especiales</p>
+            <p class="precio">$10</p>
+            <button>Comprar</button>
+        </div>
+        <div class="rango" style="background-color: #ffd700;">
+            <h2>Rango Élite</h2>
+            <p>Acceso a beneficios exclusivos</p>
+            <p>Paquetes de inicio</p>
+            <p class="precio">$15</p>
+            <button>Comprar</button>
+        </div>
+        <div class="rango" style="background-color: #87ceeb;">
+            <h2>Rango Legendario</h2>
+            <p>Acceso total a características especiales</p>
+            <p>Beneficios premium</p>
+            <p class="precio">$25</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Puedes agregar más rangos aquí -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Servidor Minecraft. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
